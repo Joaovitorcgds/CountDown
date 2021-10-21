@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contador</title>
+</head>
+<body>
+  <main>
+    <div id="container">
+      <div class="form" style="display: block;">
+        <h1 class="title">Contador</h1>
+        <p class="subTitle">Informe uma data</p>
+        <form>
+        <input type="date" class="date" >
+        <input type="button" class="btn" value="Iniciar contagem" onclick="start()">
+        </form>
+      </div>
+      <div class="result" style="display: none;">
+        <ul class="nav">
+          <li><h1 class="title">Contador</h1></li>
+          <li><button class="btnReset" onclick="resetar()">Reiniciar</button></li>
+        </ul>
+        <h1 class="secondTitle">Faltam</h1>
+        <ul>
+          <li>
+            <h1 class="days text">00</h1>
+            <p class="text">Days</p>
+          </li>
+          <li>
+            <h1 class="hours text">00</h1>
+            <p class="text">Hours</p>
+          </li>
+          <li>
+            <h1 class="minutes text">00</h1>
+            <p class="text">Minutes</p>
+          </li>
+          <li>
+            <h1 class="seconds text">00</h1>
+            <p class="text">Seconds</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

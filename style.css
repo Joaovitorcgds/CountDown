@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+  height: 700px;
+}
+.title{
+  font-size: 45px;
+  color: #21EB00;
+  margin-bottom: 20px;
+}
+.subTitle{
+  font-size: 25px;
+  color: #848484;
+  margin-bottom: 15px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  align-self: center;
+}
+input, .btnReset{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+}
+.date{
+  background: #191A18;
+  color: #848484;
+}
+.btn{
+  background: #21EB00;
+  color: #191A18;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnReset{
+  background: #21EB00;
+  color: #191A18;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.secondTitle{
+  color: #848484;
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+ul{
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+li{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  color:white;
+  font-size: 40px;
+}
