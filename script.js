@@ -3,6 +3,7 @@ const hoursContainer = document.querySelector(".hours");
 const minutesContainer = document.querySelector(".minutes");
 const secondsContainer = document.querySelector(".seconds")
 let d = document.querySelector(".date");
+const erro = document.querySelector(".erro")
 const divForm = document.querySelector(".form");
 const divResult = document.querySelector(".result");
 
@@ -11,7 +12,7 @@ function start(){
   let currentTime = new Date();
   
   if(date <= currentTime){
-    window.alert("Insira uma dta que não tenha passado e nem a data atual")
+    erro.innerHTML =" ⚠️Insira uma data que não tenha passado e nem a data do dia atual ⚠️";
     d.value = "";
   }else{
   incialCountdown()

@@ -34,6 +34,7 @@ form{
   gap: 20px;
   width: 300px;
   align-self: center;
+  margin: auto;
 }
 input, .btnReset{
   padding: 10px;
@@ -50,6 +51,10 @@ input, .btnReset{
   color: #191A18;
   font-weight: 800;
   margin-bottom: 20px;
+}
+.erro{
+color: white;
+text-align: center;
 }
 .nav{
   display: flex;
